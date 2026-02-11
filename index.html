@@ -19,7 +19,6 @@
         overflow-x: hidden;
       }
       
-      /* Noise Texture Overlay */
       .noise-overlay {
         position: fixed;
         top: 0;
@@ -32,21 +31,17 @@
         background-image: url('https://grainy-gradients.vercel.app/noise.svg');
       }
 
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #020617;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #1e293b;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #334155;
-      }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #020617; }
+      ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #334155; }
     </style>
   </head>
   <body>
+    <div id="root"></div>
+    
+    <div class="noise-overlay"></div>
+    
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
-   
