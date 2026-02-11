@@ -30,7 +30,7 @@ export const OverlapCard: React.FC<OverlapCardProps> = ({ item, index }) => {
             src={item.image} 
             alt={item.title}
             loading="lazy"
-            className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-115"
+            className="w-full h-full object-cover object-top transition-transform duration-1000 group-hover:scale-115"
           />
           <div className={`absolute inset-0 bg-gradient-to-t ${item.color} opacity-30 mix-blend-overlay`} />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
