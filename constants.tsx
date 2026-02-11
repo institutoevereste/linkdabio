@@ -30,7 +30,7 @@ export const CARD_DATA: NavItem[] = [
     title: "Portal Institucional",
     description: "Acesso centralizado para colaboradores, parceiros e gestão de fomento.",
     cta: "Acesse",
-    image: "https://i.postimg.cc/zf9g2QNp/IMG-6393.png",
+    image: "https://i.postimg.cc/Qxkv8Lnm/esse.png",
     color: "from-blue-500 to-blue-700",
     url: "https://www.evereste.org.br/"
   },
