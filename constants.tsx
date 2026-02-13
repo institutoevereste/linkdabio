@@ -8,7 +8,15 @@ export const CARD_DATA: NavItem[] = [
     cta: "Acesse",
     image: "https://i.postimg.cc/Y9PzpH0r/institucional-apresentcao.png",
     color: "from-blue-600 to-indigo-900",
-    url: "https://www.canva.com/design/DAG0rvwAk5E/J6y7T7ddpJcWFG7S_MjTfA/view?utm_content=DAG0rvwAk5E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7912265376"
+    url: "https://drive.google.com/file/d/1E9CU0E2TtbdGzVw-1bFFKnbF3czc12WZ/view?usp=sharing"
+  },
+  {
+    title: "Calendário ESG 2026",
+    description: "Acompanhe nosso cronograma de ações sustentáveis e compromissos sociais para o próximo ano.",
+    cta: "Download",
+    image: "https://i.postimg.cc/1tQFSCCx/Calendario-2026.png",
+    color: "from-emerald-400 to-green-700",
+    url: "https://drive.google.com/file/d/1_mKuwMM4bYyDhtWvyGsdi9nx6iJPwvBp/view?usp=sharing"
   },
   {
     title: "Portfólio 2026",
@@ -16,7 +24,7 @@ export const CARD_DATA: NavItem[] = [
     cta: "Leia",
     image: "https://i.postimg.cc/02DbQsjc/porfolio-evereste.png",
     color: "from-emerald-500 to-teal-800",
-    url: "https://drive.google.com/file/d/1kityvjReKMUNLGwpKDmLlstqkvbv869_/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1qrIEcKqcJYHkv4BPG1TgNDkJLo86h5-B/view?usp=sharing"
   },
   {
     title: "Balanço ESG 2025",
@@ -30,9 +38,9 @@ export const CARD_DATA: NavItem[] = [
     title: "Portal Institucional",
     description: "Acesso centralizado para colaboradores, parceiros e gestão de fomento.",
     cta: "Acesse",
-    image: "https://i.postimg.cc/Qxkv8Lnm/esse.png",
+    image: "https://i.postimg.cc/rstCF01j/esse.png",
     color: "from-blue-500 to-blue-700",
-    url: "https://www.evereste.org.br/"
+    url: "https://www.evereste.org.br"
   },
   {
     title: "Portal da Transparência",
@@ -88,5 +96,11 @@ export const SEALS_DATA: Seal[] = [
     name: "Compliance ISO 37301", 
     description: "Sistemas de Gestão de Compliance e Integridade",
     url: "https://drive.google.com/file/d/1kKxYDZ0S4Q36-AbBTxI1l6jkeE2rd3bL/view"
+  },
+  {
+    id: "BRONZE_ESG",
+    name: "Certificado Bronze ESG",
+    description: "Atestado de conformidade e maturidade em práticas ambientais, sociais e de governança.",
+    url: "https://www.evereste.org.br/images/ATESTADO_ESG_-_EVERESTE_-_Validade_04.12.2026.pdf"
   }
 ];

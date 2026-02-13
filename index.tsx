@@ -1,16 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App' // Importa o App sem chaves
 
-// Garante que o elemento root existe antes de tentar renderizar
-const rootElement = document.getElementById('root')
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-if (rootElement) {
-  ReactDOM.createRoot(rootElement).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-  )
-} else {
-  console.error("ERRO CRÍTICO: Não encontrei a div com id 'root' no index.html")
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Could not find root element to mount to");
 }
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

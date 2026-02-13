@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Award, ExternalLink } from 'lucide-react';
+import { ShieldCheck, Award, ExternalLink, Medal } from 'lucide-react';
 import { SEALS_DATA } from '../constants';
 
 export const Seals: React.FC = () => {
@@ -9,6 +9,7 @@ export const Seals: React.FC = () => {
     switch(id) {
       case 'ISO9001': return <Award className="w-6 h-6" />;
       case 'ISO37301': return <ShieldCheck className="w-6 h-6 text-blue-400" />;
+      case 'BRONZE_ESG': return <Medal className="w-6 h-6 text-amber-500" />;
       default: return <Award className="w-6 h-6" />;
     }
   };
@@ -18,7 +19,7 @@ export const Seals: React.FC = () => {
       {/* Decorative background light */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-64 bg-blue-500/5 blur-[120px] -z-10" />
       
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +32,7 @@ export const Seals: React.FC = () => {
           <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full" />
         </motion.div>
         
-        <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
           {SEALS_DATA.map((seal) => (
             <motion.div
               key={seal.id}
